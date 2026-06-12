@@ -1,138 +1,133 @@
-Satellite Image Identification using Deep Learning
+# 🛰️ Satellite Image Identification using Deep Learning
 
+## 📌 Overview
 
-Overview
+This project is a Deep Learning-based Satellite Image Identification System developed as part of a Digital Image Processing (DIP) course project.
 
+The system analyzes satellite images and automatically classifies them into predefined land-cover categories using a trained TensorFlow/Keras model.
 
+---
 
-This project is a Deep Learning-based Satellite Image Identification System developed as part of a Digital Image Processing (DIP) project. The system analyzes satellite images and automatically classifies them into predefined land-cover or geographical categories using a trained neural network model built with TensorFlow/Keras.
+## ✨ Features
 
+- 📷 Satellite image classification
+- 🤖 Deep Learning-based prediction
+- 🧠 Trained TensorFlow/Keras model
+- 🏷️ Automatic class label mapping
+- ⚡ Fast image inference
+- 🔄 Easy model integration into future applications
 
-The project demonstrates the practical application of image processing, machine learning, and computer vision techniques for remote sensing and satellite imagery analysis.
+---
 
-Features
+## 🛠️ Technologies Used
 
-Satellite image classification using Deep Learning
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| TensorFlow | Deep Learning Framework |
+| Keras | Model Development |
+| NumPy | Numerical Operations |
+| JSON | Class Label Storage |
+| Digital Image Processing | Image Analysis |
 
-Trained TensorFlow/Keras model
+---
 
-Automated image preprocessing and prediction
+## 📂 Project Structure
 
-Class label mapping using JSON configuration
-
-Support for multiple satellite image categories
-
-Easy model deployment and integration into future applications
-
-
-
-Technologies Used
-
-Python
-
-TensorFlow
-
-Keras
-
-NumPy
-
-JSON
-
-Digital Image Processing Techniques
-
-
-Project Structure
-
+```text
+DIP-Project-satellite-image-identification/
+│
 ├── satellite_classifier.keras
-
 ├── satellite_classifier (new).keras
-
 ├── class_names.json
-
 ├── class_names (new).json
-
 ├── Model code.txt
-
 └── README.md
+```
 
+---
 
-File Description
+## 📄 File Description
 
-File	                                      Description
+| File Name | Description |
+|------------|-------------|
+| `satellite_classifier.keras` | Trained classification model |
+| `satellite_classifier (new).keras` | Updated model version |
+| `class_names.json` | Stores class labels |
+| `class_names (new).json` | Updated label mapping |
+| `Model code.txt` | Training and implementation code |
 
-satellite_classifier.keras	               Trained classification model
+---
 
-satellite_classifier (new).keras	         Updated model version
+## ⚙️ How It Works
 
-class_names.json	                         Category labels for predictions
+### Step 1: Image Input
+- User provides a satellite image.
 
-class_names (new).json	                   Updated class label mapping
+### Step 2: Preprocessing
+- Image is resized.
+- Pixel values are normalized.
 
-Model code.txt	                           Model training and implementation code
+### Step 3: Feature Extraction
+- Deep Learning model extracts important visual features.
 
+### Step 4: Classification
+- Model predicts the most likely class.
 
-How It Works
+### Step 5: Output
+- Predicted label is retrieved from the JSON file.
+- Final result is displayed.
 
+---
 
-A satellite image is provided as input.
+## 🎯 Applications
 
-The image is preprocessed to match the model requirements.
+- 🌍 Land Use Classification
+- 🌳 Environmental Monitoring
+- 🏙️ Urban Planning
+- 🚜 Agricultural Analysis
+- 🛰️ Remote Sensing Research
+- 🗺️ Geographic Information Systems (GIS)
 
-The trained neural network extracts visual features from the image.
+---
 
-The model predicts the most probable category.
-
-The predicted class is mapped using the JSON label file.
-
-The final classification result is displayed.
-
-
-Applications
-
-
-Land-use classification
-
-Environmental monitoring
-
-Urban planning
-
-Agricultural analysis
-
-Remote sensing research
-
-Geographic information systems (GIS)
-
-Learning Outcomes
-
+## 📚 Learning Outcomes
 
 Through this project, the following concepts were explored:
 
+- Digital Image Processing
+- Image Classification
+- Convolutional Neural Networks (CNN)
+- TensorFlow & Keras
+- Data Preprocessing
+- Model Training
+- Model Evaluation
+- Remote Sensing Applications
 
-Digital Image Processing
+---
 
-Image Classification
+## 🚀 Future Improvements
 
-Convolutional Neural Networks (CNNs)
+- [ ] Build a graphical user interface
+- [ ] Deploy as a web application
+- [ ] Add drag-and-drop image upload
+- [ ] Improve model accuracy
+- [ ] Add confidence score visualization
+- [ ] Integrate with GIS platforms
 
-TensorFlow/Keras Model Development
+---
 
-Dataset Preparation and Preprocessing
+## 👨‍💻 Author
 
-Model Training and Evaluation
+**Tasnim Fairoze Oishy**
 
-Remote Sensing Applications
+- B.Sc. in Computer Science & Engineering
+- Jagannath University
+- Flutter Developer
+- Machine Learning Enthusiast
 
+---
 
-Future Improvements
+## 📜 License
 
-Develop a graphical user interface (GUI)
-
-Add real-time image upload functionality
-
-Improve classification accuracy with larger datasets
-
-Deploy as a web application
-
-Integrate with GIS platforms
-
-Add visualization and prediction confidence scores
+This project is intended for educational and research purposes.
