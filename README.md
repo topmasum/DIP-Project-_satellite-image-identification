@@ -1,133 +1,88 @@
-# 🛰️ Satellite Image Identification using Deep Learning
+# Satellite Image Identification
 
-## 📌 Overview
+## About the Project
 
-This project is a Deep Learning-based Satellite Image Identification System developed as part of a Digital Image Processing (DIP) course project.
+This project was developed as part of a Digital Image Processing (DIP) course. It uses a deep learning model to identify and classify satellite images into different categories.
 
-The system analyzes satellite images and automatically classifies them into predefined land-cover categories using a trained TensorFlow/Keras model.
-
----
-
-## ✨ Features
-
-- 📷 Satellite image classification
-- 🤖 Deep Learning-based prediction
-- 🧠 Trained TensorFlow/Keras model
-- 🏷️ Automatic class label mapping
-- ⚡ Fast image inference
-- 🔄 Easy model integration into future applications
+The goal of the project is to demonstrate how machine learning and image processing techniques can be applied to satellite imagery analysis.
 
 ---
 
-## 🛠️ Technologies Used
+## Features
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| TensorFlow | Deep Learning Framework |
-| Keras | Model Development |
-| NumPy | Numerical Operations |
-| JSON | Class Label Storage |
-| Digital Image Processing | Image Analysis |
+- Satellite image classification
+- Deep learning-based prediction
+- Trained Keras/TensorFlow model
+- Automatic category identification
+- Simple and efficient image analysis
 
 ---
 
-## 📂 Project Structure
+## Technologies Used
 
-```text
-DIP-Project-satellite-image-identification/
-│
-├── satellite_classifier.keras
-├── satellite_classifier (new).keras
-├── class_names.json
-├── class_names (new).json
-├── Model code.txt
-└── README.md
-```
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- JSON
 
 ---
 
-## 📄 File Description
+## Project Files
 
-| File Name | Description |
-|------------|-------------|
-| `satellite_classifier.keras` | Trained classification model |
-| `satellite_classifier (new).keras` | Updated model version |
+| File | Purpose |
+|--------|---------|
+| `satellite_classifier.keras` | Trained model |
+| `satellite_classifier (new).keras` | Updated model |
 | `class_names.json` | Stores class labels |
-| `class_names (new).json` | Updated label mapping |
-| `Model code.txt` | Training and implementation code |
+| `class_names (new).json` | Updated class labels |
+| `Model code.txt` | Model implementation code |
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### Step 1: Image Input
-- User provides a satellite image.
-
-### Step 2: Preprocessing
-- Image is resized.
-- Pixel values are normalized.
-
-### Step 3: Feature Extraction
-- Deep Learning model extracts important visual features.
-
-### Step 4: Classification
-- Model predicts the most likely class.
-
-### Step 5: Output
-- Predicted label is retrieved from the JSON file.
-- Final result is displayed.
+1. A satellite image is provided as input.
+2. The image is preprocessed for the model.
+3. The trained model analyzes the image.
+4. The model predicts the most likely category.
+5. The predicted result is displayed.
 
 ---
 
-## 🎯 Applications
+## Applications
 
-- 🌍 Land Use Classification
-- 🌳 Environmental Monitoring
-- 🏙️ Urban Planning
-- 🚜 Agricultural Analysis
-- 🛰️ Remote Sensing Research
-- 🗺️ Geographic Information Systems (GIS)
+- Land use analysis
+- Environmental monitoring
+- Urban planning
+- Agricultural studies
+- Remote sensing research
 
 ---
 
-## 📚 Learning Outcomes
+## What I Learned
 
-Through this project, the following concepts were explored:
+Through this project, I gained experience in:
 
 - Digital Image Processing
+- Deep Learning
 - Image Classification
-- Convolutional Neural Networks (CNN)
-- TensorFlow & Keras
-- Data Preprocessing
-- Model Training
-- Model Evaluation
-- Remote Sensing Applications
+- TensorFlow and Keras
+- Model Training and Evaluation
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
-- [ ] Build a graphical user interface
-- [ ] Deploy as a web application
-- [ ] Add drag-and-drop image upload
-- [ ] Improve model accuracy
-- [ ] Add confidence score visualization
-- [ ] Integrate with GIS platforms
+- Add a graphical user interface (GUI)
+- Improve model accuracy with more data
+- Develop a web-based version
+- Add confidence scores for predictions
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Tasnim Fairoze Oishy**
-
-- B.Sc. in Computer Science & Engineering
-- Jagannath University
-- Flutter Developer
-- Machine Learning Enthusiast
-
----
-
-## 📜 License
-
-This project is intended for educational and research purposes.
+**Masum Billah**  
+Computer Science and Engineering  
+Jagannath University
