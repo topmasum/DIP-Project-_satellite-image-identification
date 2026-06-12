@@ -1,5 +1,9 @@
 Satellite Image Identification using Deep Learning
+
+
 Overview
+
+
 
 This project is a Deep Learning-based Satellite Image Identification System developed as part of a Digital Image Processing (DIP) project. The system analyzes satellite images and automatically classifies them into predefined land-cover or geographical categories using a trained neural network model built with TensorFlow/Keras.
 
