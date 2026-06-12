@@ -50,36 +50,6 @@ The goal of the project is to demonstrate how machine learning and image process
 
 ---
 
-## Applications
-
-- Land use analysis
-- Environmental monitoring
-- Urban planning
-- Agricultural studies
-- Remote sensing research
-
----
-
-## What I Learned
-
-Through this project, I gained experience in:
-
-- Digital Image Processing
-- Deep Learning
-- Image Classification
-- TensorFlow and Keras
-- Model Training and Evaluation
-
----
-
-## Future Improvements
-
-- Add a graphical user interface (GUI)
-- Improve model accuracy with more data
-- Develop a web-based version
-- Add confidence scores for predictions
-
----
 
 ## Author
 
